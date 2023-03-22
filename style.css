@@ -1,10 +1,13 @@
 body{
-    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
+    background-color: gray;
 }
 
 .parent{
@@ -16,8 +19,7 @@ body{
     align-items: flex-start;
     flex-direction: column;
     justify-content: space-around;
-    
-    
+    background-color: white;
 }
 
 .kid{
@@ -29,4 +31,5 @@ body{
     height: 50px;
     border-radius: 10px;
     background-color: rgb(65, 65, 190);
+    margin-left: 8px;
 }
