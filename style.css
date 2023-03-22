@@ -1,0 +1,32 @@
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.parent{
+    position: relative;
+    border: 1px solid black;
+    width: 700px;
+    height: 250px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+}
+
+.kid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid lightblue;
+    width: 30px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(65, 65, 190);
+}
